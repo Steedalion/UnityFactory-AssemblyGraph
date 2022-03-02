@@ -3,11 +3,22 @@
 This module adds the assembly graph components to Unity.
 
 ## How to use it
-Attach a 'GraphInspector' component to the workstation surface. 
+Attach a `GraphInspector` component to the workstation surface. The radius adjusts reach of the inspection.  The red-sphere gizmo visualizes this.
 
-Attach a 'RootComponent' to a gameobject and place it on the workstation surface.
+<img src='Inspector.PNG' align="left">
+
+Attach a `RootComponent` to a gameobject and place it on the workstation surface. You can also attach `AssemblyComponent` to other gameobjects.
+
+<img src='Inspector.PNG' align="left">
+
+Attach `AssemblyConnectors` to these components.
+
+<img src='Connector.PNG'>
 
 Execute the "GraphInspector.BuildAndDestroy" to begin the process. Usually a button is used to execute the method.
+
+<img src='Assembly.PNG.PNG' align="left">
+
 
 ## The C# dll
 There is a pure C# dll that was used here. The dll was compiled from [this library](https://github.com/Steedalion/AssemblyGraph)
