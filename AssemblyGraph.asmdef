@@ -1,0 +1,17 @@
+{
+    "name": "AssemblyGraph",
+    "references": [
+        "GUID:3dbea5ef6c1f47741a1bf46813ba868b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "GraphDomain.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
