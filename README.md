@@ -25,5 +25,4 @@ An example assembly.
 
 ## The C# dll
 
-
-There is a pure C# dll that was used here. The dll was compiled from [this library](https://github.com/Steedalion/AssemblyGraph)
+`GraphDomain.dll` is a pure C# dll that was used here. The dll was compiled from [this library](https://github.com/Steedalion/AssemblyGraph)
