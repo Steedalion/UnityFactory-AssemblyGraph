@@ -26,6 +26,13 @@ namespace AssemblyGraph.AssemblyDefinitionTests
         }
 
         [UnityTest]
+        public IEnumerator NoRoot()
+        {
+            yield return null;
+            ExpectFromBUild(0,0,0);
+        }
+
+        [UnityTest]
         public IEnumerator RootWithoutConnectorIsUndetectable()
         {
             GameObject root = A.root.Build();

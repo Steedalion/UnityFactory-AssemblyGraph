@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Text.RegularExpressions;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -30,8 +31,7 @@ namespace AssemblyGraph.AssemblyDefinitionTests
         public IEnumerator ConnectorRequiresAssemblyComponentParent()
         {
             GameObject go = A.go.With<AssemblyConnector>().Build();
-            yield return null;
-            LogAssert.Expect(LogType.Error, "Connector requires component as parent");
+            LogAssert.Expect(LogType.Error,new Regex("."));
             yield return null;
         }
 

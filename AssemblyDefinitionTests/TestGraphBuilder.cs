@@ -27,6 +27,8 @@ namespace AssemblyGraph.AssemblyDefinitionTests
             Expect(root, 1, 0, 0);
             yield return null;
         }
+        
+      
 
         private static void Expect(GameObject root, int componenets, int connectors, int edges)
         {
