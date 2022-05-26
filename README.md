@@ -15,7 +15,7 @@ Attach `AssemblyConnectors` to these components.
 
 <img src='Connector.PNG'>
 
-Execute the "GraphInspector.BuildAndDestroy" to begin the process. Usually a button is used to execute the method.
+Execute the `GraphInspector.BuildAndDestroy` to begin the process. Usually a button is used to execute the method.
 
 
 <img src='Assembly.PNG'>
