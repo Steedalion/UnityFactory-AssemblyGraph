@@ -1,6 +1,7 @@
 # AssemblyGraph_unity_module
 
 This module adds the assembly graph components to Unity.
+See video on [youtube](https://www.youtube.com/watch?v=EvswdwAIvpQ&feature=youtu.be)
 
 ## How to use it
 Attach a `GraphInspector` component to the workstation surface. The radius adjusts reach of the inspection.  The red-sphere gizmo visualizes this.
