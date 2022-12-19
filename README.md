@@ -1,6 +1,6 @@
 # AssemblyGraph_unity_module
 
-This module adds the assembly graph components to Unity.
+This module adds the assembly graph components to Unity. It comes with basic editor functionality, see below for description.
 See video on for example [youtube](https://www.youtube.com/watch?v=EvswdwAIvpQ&feature=youtu.be). Simply place this folder in the unity project under the `Assets` folder.
 
 ## How to use it
